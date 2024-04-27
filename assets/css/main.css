@@ -2647,25 +2647,41 @@ input, select, textarea {
 				padding-top: 0;
 			}
 
-				div.campfire-logo {
-					display: flex;
-				}
+			.campfire-logo {
+				display: flex;
+				justify-content: center;
+				margin-bottom: 40px;
+			}
 
-				.campfire-logo {
-					max-height: 300px;
-					margin-top: 0;
-					padding-top: 0;
-				}
+			.campfire-logo a {
+				max-width: 300px;
+				width: 100%;
+				border: none;
+			}
+
+			.campfire-logo img {
+				max-width: 300px;
+				width: 100%;
+				height: auto;
+				margin-top: 0;
+				padding: 0;
+			}
 
 				.gif {
 					display: flex;
 					justify-content: center;
+					margin-bottom: 40px;
+				}
+
+				.gif a {
+					border: none;
 				}
 
 				.gif img {
-					max-height: 350px;
+					max-width: 600px;
+					width: 100%;
+					height: auto;
 					margin-top: 0;
-					margin-bottom: 40px;
 					padding: 0;
 				}
 
